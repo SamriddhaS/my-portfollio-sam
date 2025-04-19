@@ -566,3 +566,76 @@ footer {
         padding: 20px;
     }
 }
+
+/* Navigation Container Styles */
+.nav-container {
+    background-color: rgba(26, 26, 26, 0.9);
+    border-radius: 30px;
+    padding: 8px 16px;
+    backdrop-filter: blur(10px);
+}
+
+#navMenu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+#navMenu li {
+    margin: 0;
+}
+
+.nav-link {
+    color: #f0f0f0;
+    font-size: 1rem;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #a8b2c1;
+}
+.nav-link.active {
+    color: #64ffda;
+}
+
+/* You can add this class with JavaScript to the current active link */
+.nav-link.active {
+    color: #64ffda;
+}
+
+/* Media query updates for responsive design */
+@media screen and (max-width: 768px) {
+    .nav-container {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: rgba(26, 26, 26, 0.95);
+        border-radius: 0;
+        padding: 0;
+    }
+    
+    .nav-container.active {
+        display: block;
+    }
+    
+    #navMenu {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    
+    #navMenu li {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .nav-link {
+        display: block;
+        padding: 12px 20px;
+    }
+}
