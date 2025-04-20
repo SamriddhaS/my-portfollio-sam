@@ -167,34 +167,6 @@ nav ul li a:hover {
     margin-right: 5px;
 }
 
-.skill-item:nth-child(1) i {
-    color: #41c4ff;  /* Flutter color */
-}
-
-.skill-item:nth-child(2) i {
-    color: #3ddc84;  /* Android color */
-}
-
-.skill-item:nth-child(3) i {
-    color: #ffffff;  /* iOS color */
-}
-
-.skill-item:nth-child(4) i {
-    color: #00bcd4;  /* CI/CD color */
-}
-
-.skill-item:nth-child(5) i {
-    color: #6d6dff;  /* Strapi color */
-}
-
-.skill-item:nth-child(6) i {
-    color: #e535ab;  /* GraphQL color */
-}
-
-.skill-item:nth-child(7) i {
-    color: #61dafb;  /* React color */
-}
-
 /* Experience Section */
 .experience-card {
     background-color: #111111;
@@ -636,7 +608,7 @@ footer {
 }
 
 .profile-image:hover {
-    transform: scale(1.05);
+    transform: scale(1.15) rotate(5deg);
 }
 
 .hero-subtitle {

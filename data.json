@@ -1,0 +1,82 @@
+{
+    "hero": {
+      "name": "Samriddha Samanta",
+      "subtitle": "Hi, my name is",
+      "typedStrings": ["Android Development Using Kotlin & Java", "Android & Ios development Using React Native", "Solve Real World Problems with Code."],
+      "description": "I create beautiful, responsive websites and applications with clean code and excellent user experience.",
+      "resumeLink": "https://drive.google.com/file/d/1dBUrf1xfcZ4d6ItquEe65-qXHN7LlWg6/view?usp=sharing",
+      "profileImage": "images/profile.jpg",
+      "socialLinks": [
+        { "icon": "fab fa-github", "url": "#" },
+        { "icon": "fab fa-linkedin", "url": "#" },
+        { "icon": "fab fa-twitter", "url": "#" },
+        { "icon": "fab fa-stackoverflow", "url": "#" }
+      ]
+    },
+    "skills": [
+        { "icon": "fab fa-android", "name": "Android", "iconColor": "#3ddc84" },
+        { "icon": "fab fa-apple", "name": "iOS", "iconColor": "#ffffff" },
+        { "icon": "fas fa-code-branch", "name": "CI/CD", "iconColor": "#00bcd4" },
+        { "icon": "fas fa-database", "name": "Strapi", "iconColor": "#6d6dff" },
+        { "icon": "fas fa-project-diagram", "name": "GraphQL", "iconColor": "#e535ab" },
+        { "icon": "fab fa-react", "name": "React", "iconColor": "#61dafb" }
+    ],
+    "experience": [
+      {
+        "title": "Mobile Team Lead",
+        "company": "Code Himalaya",
+        "period": "Aug 2021 - Feb 2025",
+        "description": "As the Mobile Team Lead at Code Himalaya, I drive excellence in mobile application development by leading agile teams of Android, iOS, and Flutter developers. I oversee the complete development lifecycle, from project planning to execution, ensuring the delivery of innovative, high-quality mobile solutions that enhance user experiences across platforms.",
+        "technologies": ["Flutter", "Android", "iOS", "CI/CD", "GraphQL", "Strapi"]
+      },
+      {
+        "title": "College Lecturer",
+        "company": "Medhavi College",
+        "period": "Jan 2020 - Jul 2021",
+        "description": "As a lecturer at Medhavi College, I taught courses in mobile application development and web technologies. I prepared and delivered engaging lectures, designed hands-on workshops, and mentored students in their final year projects.",
+        "technologies": ["Flutter", "React", "JavaScript", "HTML/CSS"]
+      }
+    ],
+    "projects": [
+      {
+        "title": "E-Commerce Platform",
+        "description": "A full-featured online store with product catalog, shopping cart, and secure checkout process.",
+        "image": "images/project1.jpg",
+        "tags": ["React", "Node.js", "MongoDB", "Express"],
+        "liveLink": "#",
+        "githubLink": "#"
+      },
+      {
+        "title": "Weather Dashboard",
+        "description": "Real-time weather application with location search, forecasts, and interactive maps.",
+        "image": "images/project2.jpg",
+        "tags": ["JavaScript", "Weather API", "CSS3", "HTML5"],
+        "liveLink": "#",
+        "githubLink": "#"
+      },
+      {
+        "title": "Task Management App",
+        "description": "A productivity tool for organizing tasks with categories, priorities, and deadline notifications.",
+        "image": "images/project3.jpg",
+        "tags": ["React", "Firebase", "CSS Modules"],
+        "liveLink": "#",
+        "githubLink": "#"
+      },
+      {
+        "title": "Task Management App",
+        "description": "A productivity tool for organizing tasks with categories, priorities, and deadline notifications.",
+        "image": "images/project3.jpg",
+        "tags": ["React", "Firebase", "CSS Modules"],
+        "liveLink": "#",
+        "githubLink": "#"
+      },
+      {
+        "title": "Task Management App",
+        "description": "A productivity tool for organizing tasks with categories, priorities, and deadline notifications.",
+        "image": "images/project3.jpg",
+        "tags": ["React", "Firebase", "CSS Modules"],
+        "liveLink": "#",
+        "githubLink": "#"
+      }
+    ]
+  }
