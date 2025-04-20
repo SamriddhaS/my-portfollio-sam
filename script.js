@@ -179,10 +179,10 @@ function populateHeroSection(heroData) {
         <div class="hero-left">
             <p class="hero-subtitle">${heroData.subtitle}</p>
             <h1 class="hero-title">${heroData.name}</h1>
-            <p class="hero-description">I do <span id="typed"></span></p>
+            <p class="hero-description">I <span id="typed"></span></p>
             <p class="hero-description">${heroData.description}</p>
             <div class="hero-buttons">
-                <a href="${heroData.resumeLink}" target="_blank" class="cta-secondary-button">See My Resume</a>
+                <a href="${heroData.resumeLink}" target="_blank" class="cta-secondary-button">Download Resume</a>
                 <a href="#projects" class="cta-button">View My Work</a>
             </div>
         </div>
@@ -192,7 +192,7 @@ function populateHeroSection(heroData) {
             </div>
             <div class="hero-social-links">
                 ${heroData.socialLinks.map(link => 
-                    `<a href="${link.url}" class="social-link"><i class="${link.icon}"></i></a>`
+                    `<a href="${link.url}" target="_blank" class="social-link"><i class="${link.icon}"></i></a>`
                 ).join('')}
             </div>
         </div>
@@ -201,7 +201,6 @@ function populateHeroSection(heroData) {
     heroContainer.innerHTML = heroContent;
 }
 
-// Function to populate Skills section
 // Function to populate Skills section
 function populateSkillsSection(skills) {
     const skillsContainer = document.getElementById('skills-container');

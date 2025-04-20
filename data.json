@@ -2,24 +2,28 @@
     "hero": {
       "name": "Samriddha Samanta",
       "subtitle": "Hi, my name is",
-      "typedStrings": ["Android Development Using Kotlin & Java", "Android & Ios development Using React Native", "Solve Real World Problems with Code."],
+      "typedStrings": ["Make Android Apps Using Kotlin & Java", "Do Android & Ios development Using React Native", "Love to Solve Real World Problems with Code."],
       "description": "I create beautiful, responsive websites and applications with clean code and excellent user experience.",
       "resumeLink": "https://drive.google.com/file/d/1dBUrf1xfcZ4d6ItquEe65-qXHN7LlWg6/view?usp=sharing",
-      "profileImage": "images/profile.jpg",
+      "profileImage": "images/profile2.png",
       "socialLinks": [
-        { "icon": "fab fa-github", "url": "#" },
-        { "icon": "fab fa-linkedin", "url": "#" },
-        { "icon": "fab fa-twitter", "url": "#" },
-        { "icon": "fab fa-stackoverflow", "url": "#" }
+        { "icon": "fab fa-github", "url": "https://github.com/SamriddhaS" },
+        { "icon": "fab fa-linkedin", "url": "https://www.linkedin.com/in/samriddha-samanta/" },
+        { "icon": "fab fa-twitter", "url": "https://x.com/SamriddhaS97" },
+        { "icon": "fab fa-google", "url": "#" },
+        { "icon": "fa-brands fa-stack-overflow", "url": "https://stackoverflow.com/users/9035052/samriddha" }
       ]
     },
     "skills": [
         { "icon": "fab fa-android", "name": "Android", "iconColor": "#3ddc84" },
+        { "icon": "fas fa-code", "name": "Kotlin", "iconColor": "#00bcd4" },
+        { "icon": "fab fa-java", "name": "Java", "iconColor": "#e535ab" },
         { "icon": "fab fa-apple", "name": "iOS", "iconColor": "#ffffff" },
-        { "icon": "fas fa-code-branch", "name": "CI/CD", "iconColor": "#00bcd4" },
-        { "icon": "fas fa-database", "name": "Strapi", "iconColor": "#6d6dff" },
-        { "icon": "fas fa-project-diagram", "name": "GraphQL", "iconColor": "#e535ab" },
-        { "icon": "fab fa-react", "name": "React", "iconColor": "#61dafb" }
+        { "icon": "fab fa-react", "name": "React-Native", "iconColor": "#61dafb" },
+        { "icon": "fab fa-js", "name": "JavaScript", "iconColor": "#61dafb" },
+        { "icon": "fas fa-code", "name": "TypeScript", "iconColor": "#61dafb" },
+        { "icon": "fas fa-database", "name": "SQLite", "iconColor": "#6d6dff" },
+        { "icon": "fa-solid fa-file-code", "name": "C Language", "iconColor": "#e535ab" }
     ],
     "experience": [
       {
