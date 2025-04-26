@@ -1,86 +1,124 @@
 {
-    "hero": {
-      "name": "Samriddha Samanta",
-      "subtitle": "Hi, my name is",
-      "typedStrings": ["Make Android Apps Using Kotlin & Java", "Do Android & Ios development Using React Native", "Love to Solve Real World Problems with Code."],
-      "description": "I create beautiful, responsive websites and applications with clean code and excellent user experience.",
-      "resumeLink": "https://drive.google.com/file/d/1dBUrf1xfcZ4d6ItquEe65-qXHN7LlWg6/view?usp=sharing",
-      "profileImage": "images/profile2.png",
-      "socialLinks": [
-        { "icon": "fab fa-github", "url": "https://github.com/SamriddhaS" },
-        { "icon": "fab fa-linkedin", "url": "https://www.linkedin.com/in/samriddha-samanta/" },
-        { "icon": "fab fa-twitter", "url": "https://x.com/SamriddhaS97" },
-        { "icon": "fab fa-google", "url": "#" },
-        { "icon": "fa-brands fa-stack-overflow", "url": "https://stackoverflow.com/users/9035052/samriddha" }
+  "hero": {
+    "name": "Samriddha Samanta",
+    "subtitle": "Hi, my name is",
+    "typedStrings": ["Make Android Apps Using Kotlin & Java", "Do Android & Ios development Using React Native", "Love to Solve Real World Problems with Code."],
+    "description": "I create beautiful, responsive websites and applications with clean code and excellent user experience.",
+    "resumeLink": "https://drive.google.com/file/d/1dBUrf1xfcZ4d6ItquEe65-qXHN7LlWg6/view?usp=sharing",
+    "profileImage": "images/profile2.png",
+    "socialLinks": [
+      { "icon": "fab fa-github", "url": "https://github.com/SamriddhaS" },
+      { "icon": "fab fa-linkedin", "url": "https://www.linkedin.com/in/samriddha-samanta/" },
+      { "icon": "fab fa-twitter", "url": "https://x.com/SamriddhaS97" },
+      { "icon": "fab fa-google", "url": "mailto:samriddha97@gmail.com" },
+      { "icon": "fa-brands fa-stack-overflow", "url": "https://stackoverflow.com/users/9035052/samriddha" }
+    ]
+  },
+  "skills": [
+      { "icon": "fab fa-android", "name": "Android", "iconColor": "#3ddc84" },
+      { "icon": "fas fa-code", "name": "Kotlin", "iconColor": "#00bcd4" },
+      { "icon": "fab fa-java", "name": "Java", "iconColor": "#e535ab" },
+      { "icon": "fab fa-apple", "name": "iOS", "iconColor": "#ffffff" },
+      { "icon": "fab fa-react", "name": "React-Native", "iconColor": "#61dafb" },
+      { "icon": "fab fa-js", "name": "JavaScript", "iconColor": "#61dafb" },
+      { "icon": "fas fa-code", "name": "TypeScript", "iconColor": "#61dafb" },
+      { "icon": "fas fa-database", "name": "SQLite", "iconColor": "#6d6dff" },
+      { "icon": "fa-solid fa-file-code", "name": "C Language", "iconColor": "#e535ab" }
+  ],
+  "experience": [
+    {
+      "title": "SDE 1",
+      "company": "Reliance Jio",
+      "period": "Jan 2023 - Present",
+      "description": "As part of the MyJio Mobile team, I actively contributed to the development and maintenance of the JioHealth Mini SDK App for MyJio (5M+ DAU, 150M+ MAU, 500M+ downloads) and the JioHealth App (1M+ downloads), optimizing features, improving performance, and reducing APK size. I worked on Clinick on the Go, an IoT-based smart healthcare app supporting 20+ medical tests like ECG, BP, SpO2, Dengue, and Malaria, showcased at IMC 2023 and 2024. Along with kotlin/java recently transitioned into cross-platform development using React Native, JavaScript, and TypeScript to deliver seamless Android and iOS experiences.",
+      "technologies": [ "Android","Java","Kotlin","IOT - Health Devices","React-Native","TypeScript","JavaScript","iOS"],
+      "links": [
+        { 
+          "title": "JioHealth", 
+          "url": "https://play.google.com/store/apps/details?id=com.jio.health", 
+          "image": "images/jiohealth.png" 
+        },
+        { 
+          "title": "MyJio", 
+          "url": "https://play.google.com/store/apps/details?id=com.jio.myjio", 
+          "image": "images/myjio.png" 
+        }
       ]
     },
-    "skills": [
-        { "icon": "fab fa-android", "name": "Android", "iconColor": "#3ddc84" },
-        { "icon": "fas fa-code", "name": "Kotlin", "iconColor": "#00bcd4" },
-        { "icon": "fab fa-java", "name": "Java", "iconColor": "#e535ab" },
-        { "icon": "fab fa-apple", "name": "iOS", "iconColor": "#ffffff" },
-        { "icon": "fab fa-react", "name": "React-Native", "iconColor": "#61dafb" },
-        { "icon": "fab fa-js", "name": "JavaScript", "iconColor": "#61dafb" },
-        { "icon": "fas fa-code", "name": "TypeScript", "iconColor": "#61dafb" },
-        { "icon": "fas fa-database", "name": "SQLite", "iconColor": "#6d6dff" },
-        { "icon": "fa-solid fa-file-code", "name": "C Language", "iconColor": "#e535ab" }
-    ],
-    "experience": [
-      {
-        "title": "Mobile Team Lead",
-        "company": "Code Himalaya",
-        "period": "Aug 2021 - Feb 2025",
-        "description": "As the Mobile Team Lead at Code Himalaya, I drive excellence in mobile application development by leading agile teams of Android, iOS, and Flutter developers. I oversee the complete development lifecycle, from project planning to execution, ensuring the delivery of innovative, high-quality mobile solutions that enhance user experiences across platforms.",
-        "technologies": ["Flutter", "Android", "iOS", "CI/CD", "GraphQL", "Strapi"]
-      },
-      {
-        "title": "College Lecturer",
-        "company": "Medhavi College",
-        "period": "Jan 2020 - Jul 2021",
-        "description": "As a lecturer at Medhavi College, I taught courses in mobile application development and web technologies. I prepared and delivered engaging lectures, designed hands-on workshops, and mentored students in their final year projects.",
-        "technologies": ["Flutter", "React", "JavaScript", "HTML/CSS"]
-      }
-    ],
-    "projects": [
-      {
-        "title": "E-Commerce Platform",
-        "description": "A full-featured online store with product catalog, shopping cart, and secure checkout process.",
-        "image": "images/project1.jpg",
-        "tags": ["React", "Node.js", "MongoDB", "Express"],
-        "liveLink": "#",
-        "githubLink": "#"
-      },
-      {
-        "title": "Weather Dashboard",
-        "description": "Real-time weather application with location search, forecasts, and interactive maps.",
-        "image": "images/project2.jpg",
-        "tags": ["JavaScript", "Weather API", "CSS3", "HTML5"],
-        "liveLink": "#",
-        "githubLink": "#"
-      },
-      {
-        "title": "Task Management App",
-        "description": "A productivity tool for organizing tasks with categories, priorities, and deadline notifications.",
-        "image": "images/project3.jpg",
-        "tags": ["React", "Firebase", "CSS Modules"],
-        "liveLink": "#",
-        "githubLink": "#"
-      },
-      {
-        "title": "Task Management App",
-        "description": "A productivity tool for organizing tasks with categories, priorities, and deadline notifications.",
-        "image": "images/project3.jpg",
-        "tags": ["React", "Firebase", "CSS Modules"],
-        "liveLink": "#",
-        "githubLink": "#"
-      },
-      {
-        "title": "Task Management App",
-        "description": "A productivity tool for organizing tasks with categories, priorities, and deadline notifications.",
-        "image": "images/project3.jpg",
-        "tags": ["React", "Firebase", "CSS Modules"],
-        "liveLink": "#",
-        "githubLink": "#"
-      }
-    ]
-  }
+    {
+      "title": "Android Developer",
+      "company": "MUVI",
+      "period": "Aug 2022 - Jan 2023",
+      "description": "Designed and developed features for an OTT mobile app, integrating RESTful APIs and JSON-based web services.Ensured compatibility across multiple Android versions and devices, including smartphones and tablets, to deliver a seamless user experience.",
+      "technologies": [ "Android","Java","Kotlin","XML","Rest Api"],
+      "links": [
+        { 
+          "title": "MUVI OTT App", 
+          "url": "https://play.google.com/store/apps/details?id=com.muvi", 
+          "image": "images/muvi.png" 
+        }
+      ]
+    },
+    {
+      "title": "Android Developer",
+      "company": "Webgen Technologies | W.G. Technologies PVT. LTD",
+      "period": "Oct 2020 - July 2022",
+      "description": "Worked as an Android developer on multiple projects like X10D and HMC, designing and developing apps from scratch while managing the entire app lifecycle — from planning and development to testing, bug fixing, and Play Store release. Optimized legacy codebases to improve performance, handled change requests and feature enhancements, and continuously explored new technologies to maximize development efficiency. Experienced in successfully publishing and maintaining applications on the Google Play Store.",
+      "technologies": [ "Android","Java","Kotlin","XML", "Git","MVVM"],
+      "links": [
+        { 
+          "title": "HMC", 
+          "url": "https://play.google.com/store/apps/details?id=com.hmc.user", 
+          "image": "images/hmc.png" 
+        },
+        { 
+          "title": "X10D", 
+          "url": "https://play.google.com/store/apps/details?id=com.x10d", 
+          "image": "images/x10d.png" 
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "E-Commerce Platform",
+      "description": "A full-featured online store with product catalog, shopping cart, and secure checkout process.",
+      "image": "images/project1.jpg",
+      "tags": ["React", "Node.js", "MongoDB", "Express"],
+      "liveLink": "#",
+      "githubLink": "#"
+    },
+    {
+      "title": "Weather Dashboard",
+      "description": "Real-time weather application with location search, forecasts, and interactive maps.",
+      "image": "images/project2.jpg",
+      "tags": ["JavaScript", "Weather API", "CSS3", "HTML5"],
+      "liveLink": "#",
+      "githubLink": "#"
+    },
+    {
+      "title": "Task Management App",
+      "description": "A productivity tool for organizing tasks with categories, priorities, and deadline notifications.",
+      "image": "images/project3.jpg",
+      "tags": ["React", "Firebase", "CSS Modules"],
+      "liveLink": "#",
+      "githubLink": "#"
+    },
+    {
+      "title": "Task Management App",
+      "description": "A productivity tool for organizing tasks with categories, priorities, and deadline notifications.",
+      "image": "images/project3.jpg",
+      "tags": ["React", "Firebase", "CSS Modules"],
+      "liveLink": "#",
+      "githubLink": "#"
+    },
+    {
+      "title": "Task Management App",
+      "description": "A productivity tool for organizing tasks with categories, priorities, and deadline notifications.",
+      "image": "images/project3.jpg",
+      "tags": ["React", "Firebase", "CSS Modules"],
+      "liveLink": "#",
+      "githubLink": "#"
+    }
+  ]
+}

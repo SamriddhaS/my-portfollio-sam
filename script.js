@@ -243,6 +243,19 @@ function populateExperienceSection(experiences) {
                     ).join('')}
                 </div>
             </div>
+            ${exp.links && exp.links.length > 0 ? `
+            <div class="experience-links">
+                <p><i class="fas fa-link"></i> Related Links</p>
+                <div class="links-container">
+                    ${exp.links.map(link => `
+                        <a href="${link.url}" target="_blank" class="link-item">
+                            <img src="${link.image}" alt="${link.title}" class="link-image">
+                            <span class="link-title">${link.title}</span>
+                        </a>
+                    `).join('')}
+                </div>
+            </div>
+            ` : ''}
         </div>
     `).join('');
 }
