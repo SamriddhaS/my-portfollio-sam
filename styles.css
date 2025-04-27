@@ -827,6 +827,7 @@ footer {
     .hero-buttons {
         flex-direction: column;
         gap: 10px;
+        width: 100%;
     }
     
     .cta-button {

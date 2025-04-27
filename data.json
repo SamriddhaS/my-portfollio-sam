@@ -2,8 +2,13 @@
   "hero": {
     "name": "Samriddha Samanta",
     "subtitle": "Hi, my name is",
-    "typedStrings": ["Make Android Apps Using Kotlin & Java", "Do Android & Ios development Using React Native", "Love to Solve Real World Problems with Code."],
-    "description": "I create beautiful, responsive websites and applications with clean code and excellent user experience.",
+    "typedStrings": 
+    [
+      "I Am Native Android Developer with 4+ Years of Experience.",
+      "I Also Create Andoird/Ios Solution Using React Native,JavaScript & TypeScript.",
+      "Currently Solving Healthcare Problems of India with MyJio - JioHealth Sdk & JioHealth Hub Applications."
+    ],
+    "description":"",
     "resumeLink": "https://drive.google.com/file/d/1dBUrf1xfcZ4d6ItquEe65-qXHN7LlWg6/view?usp=sharing",
     "profileImage": "images/profile2.png",
     "socialLinks": [

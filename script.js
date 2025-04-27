@@ -126,7 +126,7 @@ function typeWriter() {
         // Removing characters
         typedElement.textContent = currentRole.substring(0, charIndex - 1);
         charIndex--;
-        typingSpeed = 10;
+        typingSpeed = 20;
     } else {
         // Adding characters
         typedElement.textContent = currentRole.substring(0, charIndex + 1);
@@ -138,7 +138,7 @@ function typeWriter() {
     if (!isDeleting && charIndex === currentRole.length) {
         // Pause at the end of typing
         isDeleting = true;
-        typingSpeed = 1500;
+        typingSpeed = 2500;
     }
     // If deletion is complete
     else if (isDeleting && charIndex === 0) {
@@ -179,8 +179,8 @@ function populateHeroSection(heroData) {
         <div class="hero-left">
             <p class="hero-subtitle">${heroData.subtitle}</p>
             <h1 class="hero-title">${heroData.name}</h1>
-            <p class="hero-description">I <span id="typed"></span></p>
-            <p class="hero-description">${heroData.description}</p>
+            <p class="hero-description"> <span id="typed"></span></p>
+            ${heroData.description && `<p class="hero-description">${heroData.description}</p>`}
             <div class="hero-buttons">
                 <a href="${heroData.resumeLink}" target="_blank" class="cta-secondary-button">Download Resume</a>
                 <a href="#experience" class="cta-button">View My Work</a>
