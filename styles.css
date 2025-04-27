@@ -285,6 +285,10 @@ nav ul li a:hover {
     flex-direction: column;
 }
 
+.project-content-description {
+    color: #efefef;
+}
+
 .project-tags {
     display: flex;
     flex-wrap: wrap;

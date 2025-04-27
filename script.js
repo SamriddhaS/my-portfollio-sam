@@ -183,7 +183,7 @@ function populateHeroSection(heroData) {
             <p class="hero-description">${heroData.description}</p>
             <div class="hero-buttons">
                 <a href="${heroData.resumeLink}" target="_blank" class="cta-secondary-button">Download Resume</a>
-                <a href="#projects" class="cta-button">View My Work</a>
+                <a href="#experience" class="cta-button">View My Work</a>
             </div>
         </div>
         <div class="hero-right">
@@ -268,20 +268,17 @@ function populateProjectsSection(projects) {
     
     projectsContainer.innerHTML = projects.map(project => `
         <div class="project-card">
-            <div class="project-image">
-                <img src="${project.image}" alt="${project.title}">
-            </div>
             <div class="project-content">
                 <h3>${project.title}</h3>
-                <p>${project.description}</p>
+                <p class="project-content-description" >${project.description}</p>
                 <div class="project-tags">
                     ${project.tags.map(tag => 
                         `<span class="project-tag">${tag}</span>`
                     ).join('')}
                 </div>
                 <div class="project-links">
-                    <a href="${project.liveLink}" class="project-link">View Live</a>
-                    <a href="${project.githubLink}" class="project-link">GitHub</a>
+                    ${project.liveLink ? `<a href="${project.liveLink}" target="_blank" class="project-link">View Live</a>` : ``}
+                    ${project.githubLink ? `<a href="${project.githubLink}" target="_blank" class="project-link">GitHub</a>` : ``}
                 </div>
             </div>
         </div>

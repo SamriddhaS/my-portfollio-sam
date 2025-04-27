@@ -34,14 +34,19 @@
       "technologies": [ "Android","Java","Kotlin","IOT - Health Devices","React-Native","TypeScript","JavaScript","iOS"],
       "links": [
         { 
-          "title": "JioHealth", 
-          "url": "https://play.google.com/store/apps/details?id=com.jio.health", 
-          "image": "images/jiohealth.png" 
+          "title": "MyJio", 
+          "url": "https://play.google.com/store/apps/details?id=com.jio.myjio&hl=en_US&gl=US", 
+          "image": "images/my-jio.png" 
         },
         { 
-          "title": "MyJio", 
-          "url": "https://play.google.com/store/apps/details?id=com.jio.myjio", 
-          "image": "images/myjio.png" 
+          "title": "JioHealth", 
+          "url": "https://play.google.com/store/apps/details?id=com.hh.healthhub&hl=en_US&gl=US", 
+          "image": "images/jio-health-thum.png" 
+        },
+        { 
+          "title": "Jio Health Doctor", 
+          "url": "https://play.google.com/store/apps/details?id=com.jio.hh.doctor&hl=en", 
+          "image": "images/jhh-doctor.png" 
         }
       ]
     },
@@ -53,9 +58,19 @@
       "technologies": [ "Android","Java","Kotlin","XML","Rest Api"],
       "links": [
         { 
-          "title": "MUVI OTT App", 
-          "url": "https://play.google.com/store/apps/details?id=com.muvi", 
-          "image": "images/muvi.png" 
+          "title": "Muvi Onyx", 
+          "url": "https://play.google.com/store/apps/details?id=com.release.onyxapp", 
+          "image": "images/muvi_one.png" 
+        },
+        { 
+          "title": "Muvi - Sapphire", 
+          "url": "https://play.google.com/store/apps/details?id=com.release.muvisdk", 
+          "image": "images/muvi_two.png" 
+        },
+        { 
+          "title": "Muvi - Live", 
+          "url": "https://play.google.com/store/apps/details?id=com.release.muvilive", 
+          "image": "images/muvi_three.png" 
         }
       ]
     },
@@ -68,57 +83,48 @@
       "links": [
         { 
           "title": "HMC", 
-          "url": "https://play.google.com/store/apps/details?id=com.hmc.user", 
-          "image": "images/hmc.png" 
-        },
-        { 
-          "title": "X10D", 
-          "url": "https://play.google.com/store/apps/details?id=com.x10d", 
-          "image": "images/x10d.png" 
+          "url": "https://play.google.com/store/apps/details?id=com.wgt.hmc&hl=en_US&gl=US", 
+          "image": "images/hmc-logo.png" 
         }
       ]
     }
   ],
   "projects": [
     {
-      "title": "E-Commerce Platform",
-      "description": "A full-featured online store with product catalog, shopping cart, and secure checkout process.",
-      "image": "images/project1.jpg",
-      "tags": ["React", "Node.js", "MongoDB", "Express"],
-      "liveLink": "#",
-      "githubLink": "#"
+      "title": "Compose Pokedex App",
+      "description": "Compose pokedex app is a small application based on modern Android application tech-stacks and MVVM architecture.This project is focusing especially on the new library jetpack compose which is a new way of making design/layouts for android apps.Also fetching data from the network via repository pattern.",
+      "tags": ["Kotlin","Jetpack Compose","Dagger Hilt","MVVM","Retrofit 2","Okhttp3","Coil"],
+      "githubLink": "https://github.com/SamriddhaS/ComposePokedexApp"
     },
     {
-      "title": "Weather Dashboard",
-      "description": "Real-time weather application with location search, forecasts, and interactive maps.",
-      "image": "images/project2.jpg",
-      "tags": ["JavaScript", "Weather API", "CSS3", "HTML5"],
-      "liveLink": "#",
-      "githubLink": "#"
+      "title": "ComposeSurveyApp",
+      "description": "ComposeSurveyApp is a sample survey app, built with Jetpack Compose. The goal of the sample is to showcase text input, validation and state capabilities of Compose.",
+      "tags": ["Kotlin","Jetpack Compose"],
+      "githubLink": "https://github.com/SamriddhaS/ComposeSurveyApp"
     },
     {
-      "title": "Task Management App",
-      "description": "A productivity tool for organizing tasks with categories, priorities, and deadline notifications.",
-      "image": "images/project3.jpg",
-      "tags": ["React", "Firebase", "CSS Modules"],
-      "liveLink": "#",
-      "githubLink": "#"
+      "title": "Dynamic App Launcher Icon Demo",
+      "description": "This project demonstrates how to implement dynamic app launcher icons in Android applications using Jetpack Compose. Popular apps like Swiggy, Zomato, and Twitter use this feature to dynamically change their app icons, enhancing user engagement and branding.",
+      "tags": ["Kotlin","Jetpack Compose"],
+      "githubLink": "https://github.com/SamriddhaS/DynamicAppLauncherDemo"
     },
     {
-      "title": "Task Management App",
-      "description": "A productivity tool for organizing tasks with categories, priorities, and deadline notifications.",
-      "image": "images/project3.jpg",
-      "tags": ["React", "Firebase", "CSS Modules"],
-      "liveLink": "#",
-      "githubLink": "#"
+      "title": "RunTrackerApp",
+      "description": "This app helps you track your location while running or travelling to give you precise details(exact locaions,total distance covered,speed,average speed etc) about your journey and display them in an effective manner.",
+      "tags": ["Kotlin","XML","MVVM","Dagger Hilt","Room DB","PhilJ Graphics Sdk","Google Maps Sdk"],
+      "githubLink": "https://github.com/SamriddhaS/RunTrackerApp"
     },
     {
-      "title": "Task Management App",
-      "description": "A productivity tool for organizing tasks with categories, priorities, and deadline notifications.",
-      "image": "images/project3.jpg",
-      "tags": ["React", "Firebase", "CSS Modules"],
-      "liveLink": "#",
-      "githubLink": "#"
+      "title": "Covid Tracker",
+      "description": "This app shows covid information from india and all over the globe. This app can help you to be up to date with covid-19 information from any country which you want to see.This app has a separate section for covid information of India.You can go much deep and see information based on districts for every Indian states.",
+      "tags": ["Kotlin","Java","XML","MVVM","DI with - Kodein","Multi locale Support","Coroutines","Retrofit","Room Db"],
+      "githubLink": "https://github.com/SamriddhaS/Covid-Tracker-Kotlin"
+    },
+    {
+      "title": "PhotoEditorX",
+      "description": "This is an app which can be used for editing photos.This app gives variety of options for editing your photos however you want.Some editing options are : 1.Edit contrust,brightness,color temperatures. 2.Add photo filters. 3.Add emoji's and frames. 4.Add texts and change styles of your text. 5.Crop,rotate,resize your image. 6.Choose an image from your gallery or take a photo using camera to edit.",
+      "tags": ["Java","XML","Bitmap manipulation"],
+      "githubLink": "https://github.com/SamriddhaS/PhotoEditorX"
     }
   ]
 }
