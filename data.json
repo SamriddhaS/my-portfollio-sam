@@ -4,7 +4,7 @@
     "subtitle": "Hi, my name is",
     "typedStrings": 
     [
-      "I Am Native Android Developer with 4+ Years of Experience.",
+      "I Am Native Android Developer with 5+ Years of Experience.",
       "I Also Create Android/iOs Solution Using React Native,JavaScript & TypeScript.",
       "Currently Solving Healthcare Problems of India with MyJio - JioHealth Sdk & JioHealth Hub Applications."
     ],
@@ -35,7 +35,7 @@
       "title": "SDE 1",
       "company": "Reliance Jio",
       "period": "Jan 2023 - Present",
-      "description": "As part of the MyJio Mobile team, I actively contributed to the development and maintenance of the JioHealth Mini SDK App for MyJio (5M+ DAU, 150M+ MAU, 500M+ downloads) and the JioHealth App (1M+ downloads), optimizing features, improving performance, and reducing APK size. I worked on Clinick on the Go, an IoT-based smart healthcare app supporting 20+ medical tests like ECG, BP, SpO2, Dengue, and Malaria, showcased at IMC 2023 and 2024. Along with kotlin/java recently transitioned into cross-platform development using React Native, JavaScript, and TypeScript to deliver seamless Android and iOS experiences.",
+      "description": "As part of the MyJio Mobile team, I actively contributed to the development and maintenance of the JioHealth Mini SDK App for MyJio (5M+ DAU, 150M+ MAU, 500M+ downloads) and the JioHealth App (1M+ downloads), optimizing features, improving performance, and reducing APK size. Revamped the dashboard module of the Jio-Mart app (22M+ monthly visits, 6–7M monthly orders), improving dashboard load performance by 20% and enhancing user engagement metrics. I worked on Clinick on the Go, an IoT-based smart healthcare app supporting 20+ medical tests like ECG, BP, SpO₂, Dengue, and Malaria, showcased at IMC 2023 and 2024. Along with Kotlin/Java, recently transitioned into cross-platform development using React Native, JavaScript, and TypeScript to deliver seamless Android and iOS experiences.",
       "technologies": [ "Android","Java","Kotlin","IOT - Health Devices","React-Native","TypeScript","JavaScript","iOS"],
       "links": [
         { 
@@ -49,9 +49,9 @@
           "image": "images/jio-health-thum.png" 
         },
         { 
-          "title": "Jio Health Doctor", 
-          "url": "https://play.google.com/store/apps/details?id=com.jio.hh.doctor&hl=en", 
-          "image": "images/jhh-doctor.png" 
+          "title": "Jio Mart", 
+          "url": "https://play.google.com/store/apps/details?id=com.jpl.jiomart&hl=en-US", 
+          "image": "images/jio-mart-logo.png" 
         }
       ]
     },
