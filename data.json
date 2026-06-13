@@ -32,9 +32,28 @@
   ],
   "experience": [
     {
+      "title": "SE 2",
+      "company": "Bayer",
+      "period": "Jan 2026 - Present",
+      "description": "Working on IoT-driven mobile applications within Bayer's Radiology R&D division using Flutter(Cross Platform), Kotlin(Native Android), Swift(Native iOS). Focused on building secure mobile solutions that interface with medical hardware to support servicing, software management, and secure workflows for specialized radiology platforms across Android and iOS.",
+      "technologies": [ "Dart","Flutter","Android","iOS","Java","Kotlin","Swift","IOT - Health Devices"],
+      "links": [
+        { 
+          "title": "Passlink Android", 
+          "url": "https://play.google.com/store/apps/details?id=com.bayer.ph.passlinkandroid&hl=en-US", 
+          "image": "images/passlink_logo.png" 
+        },
+        { 
+          "title": "Passlink iOS", 
+          "url": "https://apps.apple.com/us/app/passlink-mobile/id6741110628", 
+          "image": "images/passlink_logo.png"
+        }
+      ]
+    },
+    {
       "title": "SDE 1",
       "company": "Reliance Jio",
-      "period": "Jan 2023 - Present",
+      "period": "Jan 2023 - Jan 2026",
       "description": "As part of the MyJio Mobile team, I actively contributed to the development and maintenance of the JioHealth Mini SDK App for MyJio (5M+ DAU, 150M+ MAU, 500M+ downloads) and the JioHealth App (1M+ downloads), optimizing features, improving performance, and reducing APK size. Revamped the dashboard module of the Jio-Mart app (22M+ monthly visits, 6–7M monthly orders), improving dashboard load performance by 20% and enhancing user engagement metrics. I worked on Clinick on the Go, an IoT-based smart healthcare app supporting 20+ medical tests like ECG, BP, SpO₂, Dengue, and Malaria, showcased at IMC 2023 and 2024. Along with Kotlin/Java, recently transitioned into cross-platform development using React Native, JavaScript, and TypeScript to deliver seamless Android and iOS experiences.",
       "technologies": [ "Android","Java","Kotlin","IOT - Health Devices","React-Native","TypeScript","JavaScript","iOS"],
       "links": [
@@ -49,7 +68,7 @@
           "image": "images/jio-health-thum.png" 
         },
         { 
-          "title": "Jio Mart", 
+          "title": "Jio Mart",
           "url": "https://play.google.com/store/apps/details?id=com.jpl.jiomart&hl=en-US", 
           "image": "images/jio-mart-logo.png" 
         }
